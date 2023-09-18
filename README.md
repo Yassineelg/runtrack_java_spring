@@ -46,7 +46,9 @@ _Answer: In Spring MVC, a controller is a component that handles incoming HTTP r
 
 ### Job 04
 
-Question: How does Spring allow the injection of properties from configuration files?
+**Question: How does Spring allow the injection of properties from configuration files?**
+
+_Answer: Spring allows property injection from configuration files using the @Value annotation. This annotation lets you inject properties defined in configuration files like application.yml or application.properties into Spring beans, making it easy to customize and configure your application._
 
 ### Job 05
 
