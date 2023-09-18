@@ -40,7 +40,9 @@ _Answer: The pom.xml file is crucial in a Maven project because it contains all 
 
 ### Job 03
 
-Question: What is a controller in the context of Spring MVC?
+**Question: What is a controller in the context of Spring MVC?**
+
+_Answer: In Spring MVC, a controller is a component that handles incoming HTTP requests, performs specific actions, and returns an appropriate response. It acts as an intermediary between the user and the application's business logic, directing the flow of data and interactions in web applications._
 
 ### Job 04
 
