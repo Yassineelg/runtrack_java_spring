@@ -58,6 +58,10 @@ _Answer: Different profiles in a Spring application are useful for managing conf
 
 ### Job 06
 
-Question: How is the DevTools dependency beneficial for development?
+**Question: How is the DevTools dependency beneficial for development?**
+
+_Answer: The DevTools dependency in Spring Boot is beneficial for development by providing features like automatic code reloading, environment-specific configuration, and enhanced developer tools integration. It streamlines the development process, making it more efficient and productive._
+
+---
 
 This repository is your companion throughout the Java Spring development training program at La Plateforme. Whether you are new to Java Spring or have prior experience, you will find valuable resources and challenges to help you excel in your journey. Happy coding!
