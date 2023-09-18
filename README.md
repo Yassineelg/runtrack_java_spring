@@ -52,7 +52,9 @@ _Answer: Spring allows property injection from configuration files using the @Va
 
 ### Job 05
 
-Question: Why would it be useful to have different profiles in a Spring application?
+**Question: Why would it be useful to have different profiles in a Spring application?**
+
+_Answer: Different profiles in a Spring application are useful for managing configuration settings and behavior based on different environments or deployment scenarios. For example, you can have a dev profile for development with specific settings and a prod profile for production with optimized configurations. This allows you to maintain consistency across different environments while customizing settings as needed._
 
 ### Job 06
 
