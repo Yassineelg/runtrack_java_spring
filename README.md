@@ -28,7 +28,9 @@ This repository is also used for a specific assignment. Below are the questions 
 
 ### Job 01
 
-Question: What is Spring Initializr, and how can it facilitate the creation of a new Spring project?
+**Question: What is Spring Initializr, and how can it facilitate the creation of a new Spring project?**
+
+_Answer: Spring Initializr is a web-based tool that simplifies the process of creating a new Spring project. It allows developers to specify project metadata, dependencies, and packaging options. Spring Initializr generates a project structure and a Maven or Gradle build file (pom.xml or build.gradle) based on the selected options. This greatly streamlines the setup of a Spring project by providing a starter template with the necessary dependencies, making it easier to get started with Spring development._
 
 ### Job 02
 
