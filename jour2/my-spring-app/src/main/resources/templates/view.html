@@ -6,6 +6,9 @@
 </head>
 <body>
     <h1>Welcome Message:</h1>
-    <p th:text="${message}">Message will be displayed here.</p>
+    <p th:text="${messages}"></p>
+    <ul>
+        <li th:each="message : ${messages}" th:text="${message}"></li>
+    </ul>
 </body>
 </html>

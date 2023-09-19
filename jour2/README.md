@@ -28,7 +28,9 @@ _Answer: Thymeleaf is a template engine that allows dynamic content generation i
 - Modified `ViewController` to pass a list of objects to `view.html`.
 - Used Thymeleaf to iterate over this list.
 
-<!-- Job 03 Question will be added here -->
+**Question: How can you pass data from a controller to a view in Spring?**
+
+_Answer: In Spring, you can pass data from a controller to a view by adding attributes to the model object within the controller's method. These attributes can then be accessed and displayed in the view, allowing you to send dynamic data to the user interface._
 
 ### Job 04 - Handling Form Submission
 
