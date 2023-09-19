@@ -5,10 +5,19 @@
     <title>Message Page</title>
 </head>
 <body>
-    <h1>Welcome Message:</h1>
+    <h1>My Spring App</h1>
+    <h2>Welcome Message:</h2>
     <p th:text="${messages}"></p>
     <ul>
         <li th:each="message : ${messages}" th:text="${message}"></li>
     </ul>
+
+    <h2>Submit a Message:</h2>
+    <form method="post" action="/submit">
+        <input type="text" name="message" placeholder="Enter your message" />
+        <button type="submit">Submit</button>
+    </form>
+    <h2>Submitted Message:</h2>
+    <p th:text="${submittedMessage}"></p>
 </body>
 </html>

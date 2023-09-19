@@ -37,7 +37,9 @@ _Answer: In Spring, you can pass data from a controller to a view by adding attr
 - Added a simple form to `view.html`.
 - Modified `ViewController` to handle form submissions and display a welcome message.
 
-<!-- Job 04 Question will be added here -->
+**Question: How does Spring facilitate form handling?**
+
+_Answer: Spring facilitates form handling by providing annotations like `@PostMapping` and `@RequestParam` to simplify the processing of form submissions. It allows developers to map form data directly to method parameters and return views with updated data, streamlining the handling of user input in web applications._
 
 ### Job 05 - Form Validation
 
