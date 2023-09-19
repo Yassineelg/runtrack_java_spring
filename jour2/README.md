@@ -19,7 +19,9 @@ _Answer: The MVC (Model-View-Controller) pattern helps structure a web applicati
 - Created a controller, `ViewController`, and a `view.html` file.
 - Utilized Thymeleaf to display a message.
 
-<!-- Job 02 Question will be added here -->
+**Question: What is the difference between Thymeleaf and traditional HTML templates?**
+
+_Answer: Thymeleaf is a template engine that allows dynamic content generation in web applications. It adds server-side processing capabilities to HTML templates. In contrast, traditional HTML templates are static and do not support dynamic content generation. Thymeleaf uses special attributes (prefixed by "th:") to integrate dynamic data, making it suitable for building dynamic web pages in Spring applications._
 
 ### Job 03 - Passing Data to the View
 
