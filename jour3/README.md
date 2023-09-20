@@ -19,7 +19,9 @@ _Answer: JPA (Java Persistence API) is a Java standard for object-relational map
 - Configured an in-memory H2 database for the application.
 - Modified the `application.yml` file to include the necessary properties.
 
-<!-- Job 02 Question will be added here -->
+**Question: What is the objective of having a functional H2 database integrated into your application?**
+
+_Answer: The objective of having a functional H2 database integrated into your application is to provide a lightweight, in-memory database solution for development and testing purposes. It allows for efficient data storage and retrieval within the application, enhancing its functionality and enabling thorough testing without the need for an external database server._
 
 ### Job 03 - Creating a JPA Entity
 
