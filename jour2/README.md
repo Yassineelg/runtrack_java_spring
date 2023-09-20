@@ -47,7 +47,9 @@ _Answer: Spring facilitates form handling by providing annotations like `@PostMa
 - Utilized annotations to validate the age field.
 - Displayed errors in `view.html` when necessary.
 
-<!-- Job 05 Question will be added here -->
+**Question: How does Spring enable form data validation?**
+
+_Answer: Spring enables form data validation by integrating with validation frameworks like Hibernate Validator and providing annotations such as @NotBlank, @NotNull, @Min, and @Max that can be applied to form fields in model classes. These annotations trigger validation checks, and Spring handles validation errors through BindingResult, allowing developers to validate and process form data efficiently._
 
 ## Key Takeaways
 

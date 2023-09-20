@@ -10,6 +10,7 @@ public class HelloController {
     @Value("${greeting.message}")
     private String greetingMessage;
 
+    // Gère la requête GET à la racine ("/") et renvoie un message de salutation
     @GetMapping("/")
     public String sayHello() {
         return greetingMessage;

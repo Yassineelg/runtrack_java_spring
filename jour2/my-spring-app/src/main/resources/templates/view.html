@@ -1,23 +1,50 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Message Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
+    <title>Person Data</title>
 </head>
 <body>
-    <h1>My Spring App</h1>
-    <h2>Welcome Message:</h2>
-    <p th:text="${messages}"></p>
-    <ul>
-        <li th:each="message : ${messages}" th:text="${message}"></li>
-    </ul>
+    <header>
+        <h1>Person Data</h1>
+    </header>
+    <main>
+        <!-- Formulaire pour ajouter une personne -->
+        <form action="/form" method="post" th:object="${person}">
+            <section>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter name">
+            </section>
+            <section>
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" placeholder="Enter age">
+            </section>
+            <section>
+                <input type="submit" value="Submit">
+            </section>
+        </form>
+    </main>
 
-    <h2>Submit a Message:</h2>
-    <form method="post" action="/submit">
-        <input type="text" name="message" placeholder="Enter your message" />
-        <button type="submit">Submit</button>
-    </form>
-    <h2>Submitted Message:</h2>
-    <p th:text="${submittedMessage}"></p>
+    <!-- Section pour afficher les erreurs de validation -->
+    <section class="validation-section">
+        <h2>Validation Errors</h2>
+        <ul>
+            <li th:each="error : ${validationErrors}">
+                <p class="error" th:text="${error}"></p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Section pour afficher la liste des personnes ajoutées -->
+    <section class="person-list-section">
+        <h2>Person List</h2>
+        <ul>
+            <li th:each="person : ${persons}">
+                <p th:text="${person}"></p>
+            </li>
+        </ul>
+    </section>
 </body>
 </html>
