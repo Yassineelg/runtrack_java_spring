@@ -28,7 +28,9 @@ _Answer: The objective of having a functional H2 database integrated into your a
 - Created a `Person` class and marked it as a JPA entity.
 - Added attributes like `id`, `name`, and `age` to the entity.
 
-<!-- Job 03 Question will be added here -->
+**Question: How does Spring Data simplify database query creation?**
+
+_Answer: Spring Data simplifies database query creation by providing high-level abstractions and interfaces. It offers repository interfaces that developers can extend, allowing them to define custom query methods using method names. Spring Data JPA, for example, generates SQL queries based on method names, reducing the need for writing complex SQL queries manually and enhancing code readability._
 
 ### Job 04 - Implementing a JPA Repository
 
