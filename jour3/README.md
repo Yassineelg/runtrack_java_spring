@@ -28,23 +28,27 @@ _Answer: The objective of having a functional H2 database integrated into your a
 - Created a `Person` class and marked it as a JPA entity.
 - Added attributes like `id`, `name`, and `age` to the entity.
 
-**Question: How does Spring Data simplify database query creation?**
+**Question: What is the importance of annotations like @Entity in the context of JPA?**
 
-_Answer: Spring Data simplifies database query creation by providing high-level abstractions and interfaces. It offers repository interfaces that developers can extend, allowing them to define custom query methods using method names. Spring Data JPA, for example, generates SQL queries based on method names, reducing the need for writing complex SQL queries manually and enhancing code readability._
+_Answer: Annotations like @Entity are crucial in JPA (Java Persistence API) as they define Java objects as entities that can be mapped to database tables. @Entity marks a class as a persistent entity, allowing it to be stored and queried in a relational database. It's a fundamental part of the ORM (Object-Relational Mapping) process, simplifying database interaction in Java applications._
 
 ### Job 04 - Implementing a JPA Repository
 
 - Created a `PersonRepository` interface that extends `JpaRepository`.
 - Experimented with predefined methods provided by Spring Data JPA.
 
-<!-- Job 04 Question will be added here -->
+**Question: How does Spring Data simplify database query creation?**
+
+_Answer: Spring Data simplifies database query creation by providing high-level abstractions and interfaces. It offers repository interfaces that developers can extend, allowing them to define custom query methods using method names. Spring Data JPA, for example, generates SQL queries based on method names, reducing the need for writing complex SQL queries manually and enhancing code readability._
 
 ### Job 05 - Using the Repository in a Controller
 
 - Utilized the `PersonRepository` to create and read entities.
 - Created a page to display a list of persons.
 
-<!-- Job 05 Question will be added here -->
+**Question: How can you create and read entities with Spring Data JPA?**
+
+_Answer: With Spring Data JPA, you can create and read entities effortlessly. To create, define an entity class with the @Entity annotation and a repository interface extending JpaRepository. To read, use repository methods like findById() or findAll(). Spring Data JPA handles database interactions, making it easy to perform CRUD (Create, Read, Update, Delete) operations on entities._
 
 ### Job 06 - Updating and Deleting Data
 

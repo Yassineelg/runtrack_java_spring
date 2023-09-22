@@ -31,12 +31,20 @@ public class Person {
         this.age = age;
     }
 
+    public String getId() {
+        return id.toString();
+    }
+
     public String getName() {
         return name;
     }
 
     public String getAge() {
         return age.toString();
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public void setName(String name) {

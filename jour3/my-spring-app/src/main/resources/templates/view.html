@@ -42,7 +42,7 @@
         <h2>Person List</h2>
         <ul>
             <li th:each="person : ${persons}">
-                <p th:text="${person}"></p>
+                <p th:text="${person.name + ', ' + person.age + ' years old'}"></p>
             </li>
         </ul>
     </section>
